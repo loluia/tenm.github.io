@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Shop Game</title>
+<style>
+body{margin:0;font-family:Arial;background:#f3f3f3}
+header{background:#fff;padding:10px;display:flex;gap:10px}
+header input{flex:1;padding:8px}
+.banner{background:#ffd94a;padding:10px;text-align:center;font-weight:bold}
+.main{display:flex;padding:20px}
+.products{flex:3;display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.item{background:#fff;padding:20px;border-radius:10px;text-align:center}
+.topup{flex:1;background:#fff;margin-left:20px;padding:20px;border-radius:10px}
+.topup input,.topup button{width:100%;margin:5px 0;padding:8px}
+</style>
+</head>
+
+<body>
+
+<header>
+  <b>SHOP GAME</b>
+  <input placeholder="Nhập tìm kiếm...">
+  <button>Đăng nhập</button>
+</header>
+
+<div class="banner">
+  GIẢM GIÁ SỐC – XỬ LÝ ĐƠN 24–48H
+</div>
+
+<div class="main">
+  <div class="products">
+    <div class="item">Fish It</div>
+    <div class="item">Blox Fruit</div>
+    <div class="item">Brainrot</div>
+    <div class="item">Robux</div>
+    <div class="item">Gamepass</div>
+    <div class="item">Khác</div>
+  </div>
+
+  <div class="topup">
+    <h3>Nạp thẻ</h3>
+    <input placeholder="Nhà mạng">
+    <input placeholder="Mã thẻ">
+    <input placeholder="Serial">
+    <button>Nạp ngay</button>
+  </div>
+</div>
+
+</body>
+</html>
